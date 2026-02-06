@@ -331,6 +331,9 @@ input::placeholder{
     padding: 24px 32px 24px 24px;
     border-radius: 30px;
 }
+.room .section__text{
+    font-weight: 400;
+}
 
 .room__left{
     max-width: 690px;

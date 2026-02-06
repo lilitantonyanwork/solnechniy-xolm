@@ -9,7 +9,9 @@
         max-width: 1440px;
         margin: 0 auto;
     }
-
+    .terrace__item{
+        height: calc(100% / 3 - 30px);
+    }
 
 }
 @media screen and (max-width: 1440px){
