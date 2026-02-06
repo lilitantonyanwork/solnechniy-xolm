@@ -520,4 +520,7 @@
         left: -10px;
         top: -10px;
     }
+    .banner{
+        background-position: center right;
+    }
 }
