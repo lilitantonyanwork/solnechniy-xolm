@@ -109,6 +109,7 @@ header{
 .banner{
     height: 913px;
     background: url('../images/banner.png') no-repeat;
+    background-size: cover;
     padding-top: 160px;
 }
 .banner__title{
@@ -975,9 +976,7 @@ body .swiper .swiper-button-next{
     color: #c5c5c5;
     margin-bottom: 30px;
 }
-.swiper-slide{
-    width: 538px!important;
-}
+
 .review__images{
     gap: 14px;
 }

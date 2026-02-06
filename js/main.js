@@ -30,6 +30,7 @@ var swiper2 = new Swiper(".review__list", {
             slidesPerView: 2.6,
 
         },
+
     },
 
 });
