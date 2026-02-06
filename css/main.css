@@ -354,6 +354,12 @@ input::placeholder{
     width: 10px;
     height: 10px;
 }
+.room__left .swiper-slide{
+    width: 100%!important;
+}
+.btn__menu{
+    display: none;
+}
 .swiper-pagination-bullet-active{
     background: #8C7A5B  ;
 }

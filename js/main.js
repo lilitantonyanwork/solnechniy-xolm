@@ -17,5 +17,28 @@ var swiper2 = new Swiper(".review__list", {
         el: ".swiper-pagination",
         clickable: true,
     },
+    breakpoints: {
+        0 : {
+            slidesPerView: 1,
+            loop: false,
+        },
+        1025: {
+            slidesPerView: 3,
+
+        },
+        1110: {
+            slidesPerView: 2.6,
+
+        },
+    },
+
+});
+document.addEventListener("DOMContentLoaded", (event) => {
+    const menu = document.querySelector('header .menu');
+    const menu_btn = document.querySelector('.btn__menu');
+    menu_btn.addEventListener('click', function (){
+        menu.classList.toggle('active');
+    })
+
 
 });
